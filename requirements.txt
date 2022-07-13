@@ -16,8 +16,8 @@ executing==0.8.3
 fastjsonschema==2.15.3
 fonttools==4.34.4
 ipykernel==6.15.1
-ipython==8.4.0
-ipython-genutils==0.2.0
+ipython
+ipython-genutils
 ipywidgets==7.7.1
 jedi==0.18.1
 Jinja2==3.1.2
