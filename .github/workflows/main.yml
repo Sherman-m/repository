@@ -21,7 +21,13 @@ jobs:
         with:
           cache: pip
           python-version: '3.7'
-
+          
+      - run: sudo pip install jupyter_client
+      - run: sudo pip install nbconvert
+      - run: sudo pip install numpy
+      - run: sudo pip install matplotlib
+      - run: sudo pip install sklearn
+      
       - name: Install Dependencies
         run: pip install -r requirements.txt
         
