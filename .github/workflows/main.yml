@@ -11,11 +11,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
-    docker:
-      - image: circleci/python
 
     steps:
+      - uses: docker://shermanm23/repository:latest
+      
       - name: Checkout
         uses: actions/checkout@v3
 
